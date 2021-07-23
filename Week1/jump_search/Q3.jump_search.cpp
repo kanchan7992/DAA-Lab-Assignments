@@ -20,9 +20,9 @@ void jumpSearch(int a[],int n,int key) {
          }
    }
    if(f==1)
-    cout<<"OUTPUT: Present "<<c<<endl;
+    cout<<"Present "<<c<<endl;
    else
-    cout<<"OUTPUT: Not Present "<<c<<endl;
+    cout<<"Not Present "<<c<<endl;
 
 }
 

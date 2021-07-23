@@ -14,20 +14,23 @@ int main()
             cin>>a[j];
         int key,f=0,index=0;
         cin>>key;
+        int c=0;
         for(j=0;j<n;j++)
         {
             if(a[j]==key)
               {
                 f=1;
-                index=j;
+                index=j+1;
                 break;
+
               }
+              c++;
 
         }
         if(f==1)
-            cout<<"OUTPUT: Present "<<index<<endl<<endl;
+            cout<<"Present "<<index<<endl<<endl;
         else
-            cout<<"OUTPUT: Not Present "<<j<<endl<<endl;
+            cout<<"Not Present "<<c<<endl<<endl;
 
     }
     return 0;

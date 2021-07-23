@@ -1,0 +1,6 @@
+//OUTPUT:
+
+Present 3
+Present 6
+Not Present 6
+

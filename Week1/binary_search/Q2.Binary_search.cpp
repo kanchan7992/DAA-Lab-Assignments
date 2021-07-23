@@ -21,9 +21,9 @@ int binarySearch(int arr[], int key, int low, int high) {
   }
 
 if(arr[mid]==key)
-    cout<<"OUTPUT: Present "<<c<<endl<<endl;
+    cout<<"Present "<<c<<endl<<endl;
 else
-    cout<<"OUTPUT: Not Present "<<c<<endl<<endl;
+    cout<<"Not Present "<<c<<endl<<endl;
 }
 
 int main() {

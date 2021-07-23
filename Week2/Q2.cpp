@@ -22,13 +22,13 @@ int main() {
                         f=1;
                         break;
                     }
-            }
-        }
-     }
+                }
+             }
+         }
     if(f==0)
     {
         cout<<"OUTPUT: No sequence found"<<endl<<endl;
     }
-    }
+  }
     return 0;
 }
