@@ -18,7 +18,7 @@ int main() {
                 {
                     if(a[i]+a[j]==a[k])
                     {
-                        cout<<"OUTPUT: "<<i<<" "<<j<<" "<<k<<endl<<endl;
+                        cout<<i<<", "<<j<<", "<<k<<endl;
                         f=1;
                         break;
                     }
@@ -27,7 +27,7 @@ int main() {
          }
     if(f==0)
     {
-        cout<<"OUTPUT: No sequence found"<<endl<<endl;
+        cout<<"No sequence found"<<endl;
     }
   }
     return 0;

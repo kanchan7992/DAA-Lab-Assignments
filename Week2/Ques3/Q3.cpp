@@ -27,7 +27,7 @@ int main() {
         }
 
 
-        cout<<"OUTPUT: "<<f<<endl<<endl;
+        cout<<f<<endl;
   }
     return 0;
 }
